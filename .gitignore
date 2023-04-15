@@ -1,5 +1,14 @@
+# mac files
 .DS_Store
+
+# intellij config(s)
 .idea
-2022/kotlin-solutions/.gradle
 2022/kotlin-solutions/.idea
+
+# gradle
+2022/kotlin-solutions/gradle
+2022/kotlin-solutions/*.gradle
 2022/kotlin-solutions/build
+
+# misc.
+2022/kotlin-solutions/bin
