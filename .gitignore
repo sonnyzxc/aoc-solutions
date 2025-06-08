@@ -16,3 +16,6 @@
 # ignore executable created by g++ compiler
 day*
 !day*.cpp
+
+# remove all text files!
+*.txt
