@@ -1,6 +1,6 @@
 from pathlib import Path
 
-input_dir = f"{Path(__file__).parent.parent}/day01.txt"
+input_dir = f"{Path(__file__).parent}/day01.txt"
 with open(input_dir) as f:
     data = f.read().split("\n")
 
