@@ -26,7 +26,7 @@ def part2():
         a, b, c = data[x], data[x+1], data[x+2]
         d = ''.join(set(a).intersection(b).intersection(c))
         ans += checkChar(d)
-    
+
     print(ans)
 
 part1()

@@ -10,7 +10,7 @@
 
 ?
 
-### 2022 (8 ⭐)
-![](https://geps.dev/progress/32)
+### 2022 (14 ⭐)
+![](https://geps.dev/progress/28)
 
 ![languages](https://skillicons.dev/icons?i=py)

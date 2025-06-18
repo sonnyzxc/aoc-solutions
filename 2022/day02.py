@@ -44,7 +44,7 @@ def part2():
     for x in data:
         temp = x.split(' ')
         ans += results[temp[1]][temp[0]]
-    
+
     print(ans)
 
 part1()

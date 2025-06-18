@@ -18,3 +18,6 @@
 
 # remove all text files!
 *.txt
+
+# annoying pycache
+**/__pycache__/
