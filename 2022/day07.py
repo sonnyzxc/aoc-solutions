@@ -1,8 +1,8 @@
 from __future__ import annotations
 from typing import Optional
-from utils.input_data import get_input_lines
+from utils.input_data import get_input_1d_str
 
-data = get_input_lines("07")
+data = get_input_1d_str("07")
 
 class Node:
     def __init__(self, name: str, size: int, is_dir: bool, parent: Optional[Node]) -> None:
