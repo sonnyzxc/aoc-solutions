@@ -1,6 +1,6 @@
 from functools import reduce
 from operator import mul
-from utils.input_data import get_input_2d_int
+from utils.parse_input import get_input_2d_int
 
 data = get_input_2d_int("08")
 N, M = len(data), len(data[0])
