@@ -1,6 +1,6 @@
 from __future__ import annotations
 from typing import Optional
-from utils.input_data import get_input_1d_str
+from utils.parse_input import get_input_1d_str
 
 data = get_input_1d_str("07")
 
@@ -56,7 +56,6 @@ for cmd in data:
 # traverse (BFS)
 free_space = 70_000_000 - root.size
 required_space = 30_000_000 - free_space
-print(free_space, required_space)
 ans1, ans2 = 0, root.size
 q = []
 q.append(root)
@@ -69,12 +68,11 @@ while q:
 
     # part 2
     if cur.is_dir and cur.size >= required_space:
-        print(cur, cur.children.values())
         ans2 = min(ans2, cur.size)
 
     for child in cur.children.values():
         if child.is_dir:
             q.append(child)
 
-print(f"Part 1: {ans1}")
-print(f"Part 2: {ans2}")
+print(ans1)
+print(ans2)

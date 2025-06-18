@@ -1,8 +1,6 @@
-from pathlib import Path
+from utils.parse_input import get_input_1d_str
 
-input_dir = f"{Path(__file__).parent}/day01.txt"
-with open(input_dir) as f:
-    data = f.read().split("\n")
+data = get_input_1d_str("01")
 
 def part1():
     temp = ans = 0

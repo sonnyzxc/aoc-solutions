@@ -1,13 +1,11 @@
-from pathlib import Path
+from utils.parse_input import get_input_1d_str
 
-input_dir = f"{Path(__file__).parent}/day02.txt"
-with open(input_dir) as f:
-    data = f.read().split("\n")
+data = get_input_1d_str("02")
 
 '''
 A, X = Rock
 B, Y = Paper
-C, Z = Scissors 
+C, Z = Scissors
 '''
 
 def part1():
